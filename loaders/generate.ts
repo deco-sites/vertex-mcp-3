@@ -25,13 +25,24 @@ const vertex = createVertex({
 });
 
 /**
- * @name hello_world
- * @description Returns a hello world message
+ * @name generate
+ * @description Generate text, object or image using Vertex AI available models. Available models: gemini-2.0-flash-001
+gemini-2.0-flash-exp
+gemini-1.5-flash
+gemini-1.5-pro,
+imagen-3.0-generate-001
+imagen-3.0-fast-generate-001
  */
 export interface Props {
   type: "text" | "object" | "image";
   prompt: string;
-  model: string;
+  model:
+    | "gemini-2.0-flash-001"
+    | "gemini-2.0-flash-exp"
+    | "gemini-1.5-flash"
+    | "gemini-1.5-pro"
+    | "imagen-3.0-generate-001"
+    | "imagen-3.0-fast-generate-001";
   schema?: unknown;
   aspectRatio?: "1:1" | "3:4" | "4:3" | "9:16" | "16:9";
   vertexOptions?: Record<string, unknown>;
