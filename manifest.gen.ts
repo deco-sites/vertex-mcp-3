@@ -5,10 +5,11 @@
 import * as $$$$$$$$$$$0 from "./apps/deco/vtex.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
 import * as $$$0 from "./loaders/helloWorld.ts";
-
+import * as $$$1 from "./loaders/generate.ts";
 const manifest = {
   "loaders": {
     "site/loaders/helloWorld.ts": $$$0,
+    "site/loaders/generate.ts": $$$1,
   },
   "apps": {
     "site/apps/deco/vtex.ts": $$$$$$$$$$$0,
