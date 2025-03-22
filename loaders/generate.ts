@@ -70,7 +70,7 @@ export default async function generate({
 
   switch (type) {
     case "text": {
-      // Generate plain text with potential search grounding
+      // Generate plain text with potential search groundingg
       const { text, providerMetadata, sources } = await generateText({
         model: vertexModel,
         prompt,
