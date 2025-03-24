@@ -48,7 +48,6 @@ export interface Props {
   vertexOptions?: Record<string, unknown>;
   useSearchGrounding?: boolean;
 }
-
 export default async function generate({
   type,
   prompt,
@@ -67,6 +66,8 @@ export default async function generate({
   });
 
   console.log({ vertexModel });
+
+  return "teste";
 
   switch (type) {
     case "text": {
