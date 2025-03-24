@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/8a591508-c47f-4925-a632-934ab062ef5a)
+
+
 # Start — deco.cx template 
 
 Welcome to your [deco.cx](https://deco.cx) site!
